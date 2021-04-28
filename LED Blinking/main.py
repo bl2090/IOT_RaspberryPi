@@ -7,10 +7,11 @@ GPIO.setmode(GPIO.BOARD)
 GPIO.setup(40, GPIO.OUT)
 
 
-while(True):
+while(True)
     #Giving pin number 40 value as high
     GPIO.output(40, GPIO.HIGH)
     sleep(0.5)
     #Giving pin number 40 value as low
     GPIO.output(40, GPIO.LOW)
     sleep(0.5)
+    
